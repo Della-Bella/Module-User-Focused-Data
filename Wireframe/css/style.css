@@ -1,37 +1,25 @@
-/* Global Styles 
+/* Stlyles 
 
-.first-color { 
-	background: #155263; 
-}
-	
-.second-color { 
-	background: #ff6f3c; 
-}
+body:white;
+font-colour: #130f0d
+first-color:  #155263; 
+second-color:  green; 
 
-.third-color { 
-	background: #ff9a3c; 
-}
 
-.fourth-color { 
-	background: #ffc93c; 
-}
+font-family Raleway, Cabin,
 
-/* Global Styles */
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700
+/* <weight>: Use a value from 400 to 700 
 
 .cabin-<uniquifier> {
   font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <weight>;whit
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
+/* <weight>: Use a value from 100 to 900 
 
 .raleway-<uniquifier> {
   font-family: "Raleway", sans-serif;
@@ -39,3 +27,136 @@
   font-weight: <weight>;
   font-style: normal;
 }
+/* Stlyles */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px; /* add spacing between items */
+  color: #000000;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 100px;
+  text-align: center;
+  margin: 0;
+  background-image: url('../wireframe/img/header1.jpg');
+  height: 100vh;
+}
+h1{
+  font-family: "Raleway", sans-serif;
+  font-weight: 940;
+  font-size: 80px;
+  font-style: normal;
+  color: #f6f6f6;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.header-info{
+  font-family: "Cabin", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  color: #ffffff;
+  align-items: start;
+}
+
+button{
+  background-color: #ffffff;
+  padding: 20px;
+  padding: 20px 60px;
+  margin-top: 40px;
+  color: #130f0d;
+}
+
+section{
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: flex-start;
+  background-color: #f6f6f6;
+  padding: 100px;
+  font-size: 18px; 
+
+}
+a{
+  margin-top: 60px;
+  padding: 20px 20px;
+  text-decoration: none;
+  margin-right: 30px;
+  background-color: green;
+  color: black; 
+}
+article {
+  padding-left: 10px;
+  font-size: 20px;
+  height: auto;
+}
+
+
+/* First Article Styling */
+article:first-child {
+  border-left: 5px solid #000000;
+  padding-left: 10px;
+  font-size: 50px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-image: url();
+}
+.why-info, .branch-info{
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: flex-start;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+  
+  li footer{
+    justify-content: flex-end;
+    flex-direction: column;
+
+  }
+
+  .info{
+    align-items: flex-start;
+
+  }
+  .social{
+    align-items: center;
+    padding-top: 20px;
+    text-decoration: none;
+  }
