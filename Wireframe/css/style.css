@@ -194,12 +194,12 @@ footer{
   justify-content: space-evenly;
   background-color: #000000;
   color: white;
-  padding: 10px;
+  padding: 10px 10px;
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: left;
-  padding-bottom: 10px;
+
   }
   .p-footer{
     margin: 10px;  
@@ -225,4 +225,5 @@ footer{
     align-items: center;
     padding-top: 20px;
     text-decoration: none;
+  
   }
