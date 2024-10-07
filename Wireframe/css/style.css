@@ -65,6 +65,7 @@ header {
   text-align: center;
   margin: 0;
   background-image: url(/Wireframe/img/header1.jpg);
+  background-size: cover;
   height: 100vh;
   text-align: left;
 }
@@ -107,6 +108,14 @@ section{
 }
 p{
   margin-bottom: 50px;
+  line-height: 1.8;
+}
+
+.text-border{
+  border-style: groove;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  margin-left: 10px;
 }
 a{
   padding: 10px 20px;
@@ -141,8 +150,17 @@ h2{
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  font-size: 40px;
  
 }
+mark{
+  color: rgb(5, 4, 4);
+  background-color: rgb(250, 238, 7);
+  padding: 10px 20px;
+
+}
+
+
 .cards-container {
   display: flex;
   justify-content: space-between;
@@ -153,9 +171,9 @@ h2{
 }
 .card {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 48%; /* Adjust to fit two cards side by side */
+  width: 48%; 
   border-radius: 8px;
 }
 
@@ -192,6 +210,10 @@ footer{
     justify-content: flex-end;
     flex-direction: column;
 
+  }
+ .footer-links{
+    text-decoration: none;
+    background: none;
   }
 
   .info{
